@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>资产管理主页</title>
+</head>
+<body >
+<center>
+    <p> <a href="..\addPage">添加</a> </p>
+    <p>搜索</p>
+    <p>列表</p>
+
+   {% for one in allAssetData %}
+    <li><a href="..\asset\{{ one.assetNum}}">{{ one.assetNum}} :{{ one.assetName}} </a></li>
+    {% endfor %}
+
+
+</center>
+</body>
+</html>
