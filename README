@@ -1,3 +1,10 @@
 #django编写的后台
 #uni-app编写的前台
 #实现增删查改的资产管理小程序
+
+AnManage目录下是django后台程序文件
+MinthAsset目录下是uni-app前端程序文件
+
+Assets.xls是资产信息表格
+updataAsset.py用于将表格文件内信息导入到后台系统
+初次使用的时候可以快速导入资产信息
